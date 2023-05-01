@@ -10,3 +10,9 @@ if encontrar in nome:
     print(f'{encontrar} está em {nome}')
 else:
     print(f'{encontrar} não está em nome')
+
+
+#resposta será 1 nas duas.
+variavel_a = 0 or 1
+variavel_b = 1 or 0
+print(variavel_a, variavel_a)

@@ -1,2 +1,2 @@
 # ESTUDOS-PYTHON
- Close Repository
+Closed Repository
