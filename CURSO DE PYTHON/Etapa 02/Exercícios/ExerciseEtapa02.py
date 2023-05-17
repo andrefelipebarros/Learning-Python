@@ -51,16 +51,35 @@ if entrada.isdigit():
 else:
     print('não é um número')
 
+#2- Horário
+try: 
+    hora = input('Digite a hora: ')
+    hora_int = int(hora)
 
-# Horário 
+    if hora_int <= 12:
+        print('BOM DIA! O SOL JÁ NASCEU LÁ NA FAZENDINHA')
+    elif hora_int <= 17:
+        print('BOA TARDE! VADIAA')
+    elif hora_int >= 18 and hora_int <=24:
+        print('Boa noite... zZ*Z*')
+    else:
+        print('Z Z Z Z')
+except:
+    print('Não contém número inteiro. Digite novamente.')
 
-hora = input('Digite a hora: ')
+#3- Word Scale
+try:
+    nome = input("Digite seu nome: ")
+    nome_len = len(nome)
+    if nome_len <= 4:
+        print("menor que 4")
+    elif nome_len == 5 or 6:
+        print('Seu nome é normal.')
+    else:
+        print('seu nome é enorme...')
 
-hora_int = int(hora)
+except:
+    print('Você não digitou nenhum nome')
 
-if hora_int < 12:
-    print('BOM DIA! O SOL JÁ NASCEU LÁ NA FAZENDINHA')
-elif hora_int > 17:
-    print('BOA TARDE! VADIAA')
-elif hora_int > 18:
-    print('Boa noite... zZ*Z*')
+#Usei um método totalmente diferente doque o do professor.
+
