@@ -51,7 +51,11 @@ while True:
         #caso a condição não contenha a palavra acertada entrará um asteristico
             lista += '*'
     print(lista)
+
+
+    if lista == word_secret:
+        print("___________________________________\n")
+        print("VOCÊ CONSEGUIU!!\nENCONTORU A PALAVRA SECRETA.\n")
+        print("------------------------------------")
+        break
         
-
-
-    
