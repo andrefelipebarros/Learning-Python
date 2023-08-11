@@ -43,4 +43,4 @@ iter--> me entregue seu iterador
 texto2 = iter('Luiz')
 iterator = iter(frase) #iterator
 
-print(texto2) #fala onde está o endereço de memória dele
+print(texto2) #fala onde está o endereço de memória dele     
