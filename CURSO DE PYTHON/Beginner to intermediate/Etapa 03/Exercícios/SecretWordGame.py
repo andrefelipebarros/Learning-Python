@@ -45,8 +45,7 @@ while True:
         #crio um condição para que a cada vez que a lista tiver 
         #uma letra acertada ela print a letra secreta
         if letra_secreta in palavras_acertadas:
-            lista += letra_secreta
-            
+            lista += letra_secreta   
         else:
         #caso a condição não contenha a palavra acertada entrará um asteristico
             lista += '*'
